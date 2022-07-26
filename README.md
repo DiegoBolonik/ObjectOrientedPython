@@ -24,8 +24,9 @@ Comandos:
 `from conta import Conta`
 
 Criando uma conta:
-`>>> conta = cria_conta(123, "Diego", 55.0, 1000.0) 
 
-conta.extrato()
+`conta = cria_conta(123, "Diego", 55.0, 1000.0)`
+
+`conta.extrato()
 conta.deposita(100.0)
 conta.saldo`
